@@ -1,9 +1,9 @@
 import React from "react";
-import './App.css';
+import "./App.css";
 import Header from "./components/header/Header";
-import Sidebar from "./components/sidebar/Sidebar";
-import Feed from "./components/feed/Feed";
-import Widgets from "./components/widgets/Widgets";
+import Sidebar from "../src/components/sidebar/Sidebar";
+import Feed from "../src/components/feed/Feed";
+import Widgets from "../src/components/widgets/Widgets";
 
 function App() {
   return (
