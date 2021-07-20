@@ -8,6 +8,7 @@ import ShareOutlinedIcon from "@material-ui/icons/ShareOutlined";
 import SendOutlinedIcon from "@material-ui/icons/SendOutlined";
 import PublicOutlinedIcon from "@material-ui/icons/PublicOutlined";
 import { posts } from "../../helpers/Posts";
+import { useEffect } from "react";
 
 const Post = ({ index, name, description, time, message, photoUrl }) => {
   const [isOpen, setOpen] = useState(false);
@@ -23,6 +24,7 @@ const Post = ({ index, name, description, time, message, photoUrl }) => {
     });
     setComment("");
   };
+
   return (
     <div className="post">
       <div className="post__header">
